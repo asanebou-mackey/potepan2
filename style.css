@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+h3, .timer, .timerButtons {
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.timer {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.timerButtons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.start {
+    width: 100px;
+    padding: 10px;
+}
+
+.stop {
+    margin: 0 20px;
+    width: 100px;
+    padding: 10px;
+}
+
+.reset {
+    width: 100px;
+    padding: 10px;
+}
