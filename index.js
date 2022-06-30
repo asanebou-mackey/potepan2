@@ -37,7 +37,7 @@ function updateTimeText() {
     s = ("0" + s).slice(-2);
 
     //文字列の末尾3桁を表示
-    ms = ("00" + m).slice(-3);
+    ms = ("00" + ms).slice(-3);
 
     //HTMLのclass = "timer"部分に表示される
     timer.textContent = m + ":" + s + ":" + ms;
