@@ -72,7 +72,7 @@ function stopTimer() {
     clearInterval(timerId);
 
     //過去の経過時間。2回目以降この値が追加される。
-    timeToAdd = Date.now() - startTime;
+    timeToAdd += Date.now() - startTime;
 
     //ストップボタンを押せないようにする
     stopBtn.setAttribute("disabled", true);
